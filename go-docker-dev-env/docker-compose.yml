@@ -1,0 +1,11 @@
+services:
+  my-project-with-air:
+    image: cosmtrek/air
+    # working_dir value has to be the same of mapped volume
+    working_dir: /app
+    ports:
+      - 3000:3000
+    environment:
+      - ENV_A=asd
+    volumes:
+      - ./app/:/app/
