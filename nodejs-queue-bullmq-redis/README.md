@@ -24,3 +24,8 @@ cd worker
 npm i
 npm run start:dev
 ```
+
+## Add a task to queue
+```
+curl localhost:3003
+```
