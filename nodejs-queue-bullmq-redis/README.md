@@ -1,3 +1,4 @@
+# Queue and Worker apps with NodeJs, Typescript, BullMQ and Redis
 
 This repo contains 2 projects:
 * `api` app adds tasks to queue 
